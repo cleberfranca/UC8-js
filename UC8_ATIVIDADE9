@@ -1,0 +1,25 @@
+
+//Percorrer de Zero até o número de voltas
+//Se o número for par, escreva ‘par’ e o número correspondente
+//Se o número for ímpar, escreva ‘ímpar’ e o número correspondente  
+//Se o número for zero, escreva ‘zero’ e o número correspondente
+
+let numeroDeVoltas = 53
+//é só contar acrescentando + 1
+// contador++ eh a mesma coisa que contador = contador + 1 
+
+let contador = 0
+while (contador <= numeroDeVoltas){
+    //console.log(contador)
+
+    if (contador == 0){
+        console.log("o numero atual de voltas eh zero")
+    }else if (contador % 2 != 0){
+        console.log("O numero "+ contador + " eh IMPAR")
+    }else{
+        console.log(`O numero ${contador} é PAR`)
+    }
+
+    contador++
+}
+
